@@ -1,0 +1,134 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000;
+    font-family: consolas;
+}
+a
+{
+    position: relative;
+    display: inline-block;
+    padding : 15px 30px;
+    color: #0127fd;
+    text-transform: none; /* uppercase optional */
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2px;
+}
+a:hover
+{
+    color: #ffffff;
+    background:#fdec01;
+    box-shadow: 0 0 10px #fdec01, 0 0 40px #fdec01,0 0 80px #fdec01;
+    transition-delay: 1s;
+}
+a span
+{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1)
+{
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#fdec01)
+
+}
+a:hover span:nth-child(1)
+{
+    left: 100%;
+    transition: 1s;
+}
+
+a span:nth-child(3)
+{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#fdec01)
+
+}
+a:hover span:nth-child(3)
+{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+a span:nth-child(2)
+{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,#fdec01)
+
+}
+a:hover span:nth-child(2)
+{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+a span:nth-child(4)
+{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,#fdec01)
+}
+a:hover span:nth-child(4)
+{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+* 
+{
+  box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column 
+{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 
+{
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
