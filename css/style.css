@@ -22,19 +22,19 @@ a
     overflow: hidden;
     transition: 0.2px;
 }
-a:hover
+a:hover  /* Style Cursor over on button */
 {
     color: #ffffff;
     background:#fdec01;
     box-shadow: 0 0 10px #fdec01, 0 0 40px #fdec01,0 0 80px #fdec01;
     transition-delay: 1s;
 }
-a span
+a span /* function for span tag */
 {
     position: absolute;
     display: block;
 }
-a span:nth-child(1)
+a span:nth-child(1) /* 1 . for top line */
 {
     top: 0;
     left: 0%;
@@ -49,7 +49,7 @@ a:hover span:nth-child(1)
     transition: 1s;
 }
 
-a span:nth-child(3)
+a span:nth-child(3) /* 2 . for bottom */
 {
     bottom: 0;
     right: -100%;
@@ -65,7 +65,7 @@ a:hover span:nth-child(3)
     transition-delay: 0.5s;
 }
 
-a span:nth-child(2)
+a span:nth-child(2) /* 3 . for right side */
 {
     top: -100%;
     right: 0;
@@ -81,7 +81,7 @@ a:hover span:nth-child(2)
     transition-delay: 0.25s;
 }
 
-a span:nth-child(4)
+a span:nth-child(4) /* 4 . for left side */
 {
     bottom: -100%;
     left: 0;
@@ -95,7 +95,7 @@ a:hover span:nth-child(4)
     transition: 1s;
     transition-delay: 0.75s;
 }
-
+/* Common Style for div tag , Rows and Columns */
 * 
 {
   box-sizing: border-box;
@@ -116,7 +116,6 @@ a:hover span:nth-child(4)
   display: table;
   clear: both;
 }
-
 h1 
 {
   text-align: center;
