@@ -1,8 +1,9 @@
-# Neon Button (or) Flash Button
+# Learning Cascade Style Sheet (CSS) & JavaScript
 
 -------------------------------
 
-<h2>HTML Button & Cascade Style Sheet(CSS) design.</h2>
+<h2>HTML Cascade Style Sheet(CSS) design.</h2>
 
 <img src="https://github.com/RamkumarMrj/NeonButton/blob/master/img/FlashButtonDemo.gif?raw=true" width="500" height="600">
 
+Visit MyCSS : https://ramkumarmrj.github.io/MyCSS/
