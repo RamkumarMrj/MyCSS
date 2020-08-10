@@ -151,16 +151,3 @@ body.light .toggleClass::before
     content: 'Dark Mode';
     white-space: nowrap;
 }
-
-#header {
-    position: relative;
-    min-height: 150px;
-}
-#header-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-#header, #header * {
-    background: rgba(40, 40, 100, 0.25);
-}
